@@ -230,7 +230,7 @@ input:focus{
 }
 .carousel-caption{
    transform: translate(-70px, -110px);
-   text-align: left;
+   text-align: center;
    width: 430px;
    font-size: 14px;
    font-weight: 300;
