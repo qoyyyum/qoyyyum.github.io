@@ -42,6 +42,20 @@ a{
   color: var(--text-color);
   text-decoration: none;
 }
+.container{
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.container-fluid{
+  display: flex;
+  flex-wrap: inherit;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+}
 .container-navbar{
   display: flex;
   justify-content: space-around;
@@ -255,18 +269,19 @@ input:focus{
   color:var(--text-color);
 }
 .owl-carousel{
-  padding: 10px 20px 0px 20px;
+  padding: 0px 20px 0px 20px;
+  height: 270px;
 }
 .owl-nav{
   transform: translate(0px,-150px);
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 0%;
   opacity: 0;
   transition: all 0.2s ease-out;
 }
 .owl-nav:hover{
-  opacity: 1;
+  opacity: 0;
 }
 .owl-left,.owl-right{
   background-color: #fff;
@@ -339,10 +354,14 @@ input:focus{
   color:#fff;
 }
 /* Footer */
-footer {
+.col-md-8{
+  flex: 0 0 auto;
+  width: 100%;
+}
+footer{
   color: var(--text-color);
   background-color: var(--bg-color);
-  text-align: left;
+  text-align: center;
   padding: 80px 30px 30px 30px;
 }
 footer .link-sosmed{
