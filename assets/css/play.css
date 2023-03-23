@@ -313,6 +313,9 @@ footer {
   text-align: center;
   padding: 50px 30px 30px 30px;
 }
+.bi-heart-fill{
+  color: #FFF9E1;
+}
 /* Media Query 768px */
 @media screen and (max-width:768px){
   body{
