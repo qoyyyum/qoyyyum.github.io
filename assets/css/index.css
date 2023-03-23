@@ -369,6 +369,9 @@ footer .link-sosmed{
     justify-content: center;
     align-items: center;
   }
+.text-info{
+  color: #FFF9E1!important;
+}
 /* Media Query 768px */
 @media screen and (max-width:768px){
   .nav-side{
