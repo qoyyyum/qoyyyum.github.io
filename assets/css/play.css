@@ -224,7 +224,11 @@ video{
   margin:3px;
 }
 .nav-item .nav-link:focus{
-  background-color: var(--primary-color);
+  background-color: #FFF9E1;
+}
+.nav-pills .nav-link.active{
+  color: #111319;
+  background-color: #FFF9E1;
 }
 /* Main Content (details) */
 .details{
@@ -247,6 +251,15 @@ video{
 }
 p{
   cursor: pointer;
+}
+.bi-star{
+  color: #FFF9E1;
+}
+.bg-primary{
+  background-color: #FFF9E1!important
+}
+.badge{
+  color: #111319;
 }
 /* Container erupa Tapi Tak sama CSS */
 .container-serupa-tapi-tak-sama{
