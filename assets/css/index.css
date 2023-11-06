@@ -2,11 +2,12 @@
 
 :root{
   --text-color: #fff;
-  --bg-color:rgb(17, 19, 25);
+  --bg-color:#111319;
   --primary-color:#007bff;
   --secondary-color:#1a1c22;
   --nav-color:linear-gradient(0deg, rgba(51, 51, 51, 0) 0%, rgba(51, 51, 51, 0.75) 100%);
   --test:#2a2d38;
+  touch-action: pan-x pan-y;
 }
 html[data-color-mode="light"]{
   --text-color: #000;
@@ -153,85 +154,7 @@ i{
   padding:10px;
   border-radius:10px;
 }
-/* Modal Login */
-.modal-content{
-  background-color:var(--bg-color);
-  color: var(--text-color);
-}
-.modal-head-zone{
-  display: flex;
-  justify-content: space-between;
-  padding: 20px 20px 0px 20px
-}
-/* Form */
-.input-wrapper{
-  display: flex;
-  background-color: var(--secondary-color);
-  color:white;
-  width:100%;
-  margin: 10px 0px;
-  border-radius: 5px;
-  border:1px solid rgb(112, 112, 112);
-}
-.input-icon{
-  padding: 5px 10px;
-  border-right: 1px solid rgb(156, 156, 156);
-}
-.link-forgot-password p{
-  font-size: 12px;
-  text-align: center;
-}
-.link-forgot-password p a{
-  text-decoration: none;
-}
-.link-forgot-password p a:hover{
-  color:white;
-}
-input{
-  background-color: var(--secondary-color);
-  color:var(--text-color);
-  border:0;
-  width: 100%;
-  margin:0px 0px 0px 15px;
-}
-input:focus{
-  outline: none;
-}
-.button-submit{
-  width: 100%;
-  background-color: var(--primary-color);
-  color:var(--text-color);
-  padding: 5px;
-  border:0;
-  border-radius: 5px;
-  margin: 10px 0px 0px 0px;
-}
-.button-submit:hover{
-  background-color: #408a68;
-}
-.modal-body .col-md-4 a{
-  display: block;
-  margin: 8px auto;
-}
-.modal-body .third-party-apps{
-  font-size: 11px;
-}
-.modal-body ul{
-  list-style: none;
-  transform: translateX(-15px);
-}
-.modal-body ul li a{
-  background-color: #323232;
-  border-radius: 50px;
-  padding: 5px 0px;
-  margin: 5px 0px;
-  color: var(--text-color);
-  text-decoration: none;
-  font-size: 13px;
-}
-.modal-body ul li a i{
-  padding: 9px 8px 8px 8px;
-}
+
 /* Carousel Bootstrap */
 .container-carousel{
   margin:0px 30px 30px 30px;
@@ -256,21 +179,24 @@ input:focus{
   padding: 0;
 }
 /* Owl Carousel CSS */
-.container-owl-carousel{
-  padding: 30px;
+.container-owl-carousel img#kny{
+  position:absolute;
+  z-index: 1;
+  margin: auto;
+  width: auto;
+  margin-top: -86px;
 }
-.container-owl-carousel .title-role .navbar-brand{
-  color:#000;
-}
-.navbar-carousel{
-  padding: 20px 10px 10px 10px;
+.title-role .navbar-brand{
+  color:#ffffff;
 }
 .navbar-carousel .title-role {
   color:var(--text-color);
+  z-index: 1;
 }
 .owl-carousel{
   padding: 0px 20px 0px 20px;
   height: 270px;
+  background-color: #111319;
 }
 .owl-nav{
   transform: translate(0px,-150px);
@@ -291,68 +217,29 @@ input:focus{
   box-shadow: 1px 1px 10px var(--secondary-color);
 }
 /* Card CSS */
-.card-film{
+.book{
   width: 150px;
   height: 250px;
   background: rgba(255, 0, 0, 0);
   transition: all 0.2s ease-out;
   overflow-y: hidden;
+  padding-top: 20px;
 }
-.card-film img{
+.book img{
   background-size: contain;
   width: 100%;
-  height:200px;
+  height:225px;
   border-radius: 10px;
   border: 0;
   transition: all 0.2s ease-out;
 }
-.card-film p{
+.book p{
   text-align:center;
   color:var(--text-color);
   font-weight: 300;
   word-wrap: break-word;
 }
-/* Banner Trial  */
-.container-banner-trial{
-  width: 96%;
-  height: 190px;
-  margin: 0px 30px 0px 30px;
-  overflow: hidden;
-  background-image: url("../img/image-image.jpg");
-  background-size: cover;
-  background-attachment: fixed;
-  border-radius: 20px;
-  padding: 0px;
-}
-.container-banner-trial .col-4 a{
-  color: #fff;
-}
-.banner-title-trial{
-  padding: 40px;
-  color: #fff;
-  background-color:rgba(0, 0, 0, 0.5);
-}
-.banner-carousel-trial{
-  background-color:rgba(0, 0, 0, 0.5);
-  height: 190px;
-}
-.card-banner-trial{
-  width: 250px;
-  height: 175px;
-  background: rgba(0, 0, 0, 0);
-  border-radius: 8px;
-}
-.card-banner-trial img{
-  background-size: cover;
-  width: 100%;
-  height:150px;
-  border-radius: 20px;
-  transition: all 0.2s ease-out;
-}
-.card-banner-trial p{
-  text-align:center;
-  color:#fff;
-}
+
 /* Footer */
 .col-md-8{
   flex: 0 0 auto;
@@ -364,62 +251,7 @@ footer{
   text-align: center;
   padding: 80px 30px 30px 30px;
 }
-footer .link-sosmed{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-/* Media Query 768px */
-@media screen and (max-width:768px){
-  .nav-side{
-    display: none;
-  }
-  .content-right{
-    display:none;
-  }
-  .container-content{
-    padding: 0px;
-  }
-  /* Navbar CSS */
-  .content-right .search{
-    display: none;
-  }
-  .modal-body .row .col-6 img{
-   display:none;
-  }
-  /* Carousel Bootstrap CSS */
-  .container-carousel{
-    margin:0px;
-  }
-  .carousel-item img{
-    height: 35vh;
-  }
-  /* Owl Carousel */
-  .owl-carousel{
-    padding: 10px px 0px 20px;
-  }
-  /* Card CSS */
-  .card{
-    width: 100px;
-    height: 180px;
-  }
-  .card p{
-    font-size: 12px;
-  }
-  /* Banner Trial */
-  .container-banner-trial{
-    width:100%;
-    margin: 0px;
-    overflow: hidden;
-    background-size: cover;
-    border-radius: 20px;
-  }
-  .banner-title-trial{
-    padding:15px 0px 10px 30px;
-    font-size: 12px;
-  }
   /* Footer */
   footer{
     text-align: center;
   }
-}

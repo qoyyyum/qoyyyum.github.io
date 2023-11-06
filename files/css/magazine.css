@@ -1,8 +1,16 @@
 body{
 	overflow:hidden;
 	background-color:#fcfcfc;
-	margin:0;
+	margin:auto;
 	padding:0;
+}
+
+.bgmeja{
+	z-index: 0;
+	position: absolute;
+	margin: auto;
+	width: auto;
+	background-repeat: repeat;
 }
 
 .magazine-viewport .container{
@@ -136,11 +144,11 @@ body{
 	-o-transition: -webkit-box-shadow 0.5s;
 	-ms-transition: -ms-box-shadow 0.5s;
 
-	-webkit-box-shadow:0 0 20px #ccc;
-	-moz-box-shadow:0 0 20px #ccc;
-	-o-box-shadow:0 0 20px #ccc;
-	-ms-box-shadow:0 0 20px #ccc;
-	box-shadow:0 0 20px #ccc;
+	-webkit-box-shadow:0 0 20px #080000;
+	-moz-box-shadow:0 0 20px #080000;
+	-o-box-shadow:0 0 20px #080000;
+	-ms-box-shadow:0 0 20px #080000;
+	box-shadow:0 0 20px #080000;
 }
 
 .magazine-viewport .next-button,
@@ -381,4 +389,13 @@ body{
 	left:0;
 	bottom:0;
 	width:100%;
+}
+
+.back{
+	position: absolute;
+	z-index: 1000;
+	width: 28px;
+	height: 28px;
+	top: 10px;
+	right: 10px;
 }
