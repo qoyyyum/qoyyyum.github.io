@@ -178,21 +178,29 @@ i{
   padding: 0;
 }
 /* Owl Carousel CSS */
-.container-owl-carousel img#kny{
+.owl-loaded{
+  background-image: url(files\pics\rak.png);
+}
+.owl-drag{
+  background-image: url(files\pics\rak.png);
+}
+.owl-carousel{
+  background-image: url(files\pics\rak.png);
+}
+.container-owl-carousel img#rak1{
   position:absolute;
   z-index: 1;
-  margin: auto;
-  width: auto;
-  margin-top: -86px;
+  max-height: 296px;
+  object-fit: contain;
 }
 .title-role .navbar-brand{
-  color:#ffffff;
+  color:#000000;
 }
 .navbar-carousel .title-role {
   color:var(--text-color);
-  z-index: 1;
+  z-index: 2;
 }
-.owl-carousel{
+.owl-carousel .owl-loaded .owl-drag{
   padding: 0px 20px 0px 20px;
   height: 270px;
   background-color: #111319;
@@ -201,7 +209,7 @@ i{
   transform: translate(0px,-150px);
   display: flex;
   justify-content: space-between;
-  width: 0%;
+  width: auto;
   opacity: 0;
   transition: all 0.2s ease-out;
 }
@@ -231,6 +239,7 @@ i{
   border-radius: 10px;
   border: 0;
   transition: all 0.2s ease-out;
+
 }
 .book p{
   text-align:center;
