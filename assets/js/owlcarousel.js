@@ -8,7 +8,7 @@ $(document).ready(function(){
     mouseDarg :true,
     autoWidth:true,
     slideBy:7,
-    dots:true,
+    dots:false,
     navText:[left, right],
     responsive:{
         0:{
@@ -23,7 +23,7 @@ $(document).ready(function(){
         },
         1000:{
             items:7,
-            nav:true,
+            nav:false,
             loop:false
         }
     }
