@@ -50,6 +50,11 @@ sectionatas img#slowly
 {
     width: 40%
 }
+sectionatas img#sorry
+{
+    bottom: 20%;
+    width: 50%
+}
 section1
 {
     position: relative;
