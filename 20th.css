@@ -1,0 +1,397 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700,800,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+body
+{
+    background: linear-gradient(#ffafc5, #ff638e);
+    min-height: 100vh;
+}
+sectionatas
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+sectionatas img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+sectionatas img#char
+{
+    top: 0%;
+    width: 60%;
+    position: fixed;
+    z-index: 1;
+}
+sectionatas img#hello
+{
+    top: 35%;
+}
+sectionatas img#swipeup
+{
+    width: 50%;
+    bottom: 3%
+}
+sectionatas img#slowly
+{
+    width: 40%
+}
+section1
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section1 img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+section1 img#sun
+{
+    top: 1%;
+}
+section1 img#cloudl
+{
+    top: 1%;
+}
+section1 img#cloudr
+{
+    top: 1%;
+}
+section1 img#cloudmid
+{
+    top: 1%;
+}
+section1 img#cloudl1
+{
+    top: 69%;
+}
+section1 img#cloudr1
+{
+    top: 32%;
+}
+section1 img#cloudmid1
+{
+    top: 88%;
+}
+section1 img#balbir
+{
+    bottom: 48%;
+    left: 7%;
+    width: 50%;
+}
+section1 img#balmer
+{
+    bottom: 48%;
+    right: 7%;
+    width: 50%;
+}
+section1 img#balkun
+{
+    bottom: 39%;
+    left: -5%;
+    width: 50%;
+}
+section1 img#baljorah
+{
+    bottom: 39%;
+    right: -5%;
+    width: 50%;
+}
+section1 img#baljo
+{
+    bottom: 27%;
+    right: 5%;
+    width: 50%;
+}
+section1 img#baljomud
+{
+    bottom: 27%;
+    left: 5%;    
+    width: 50%;
+}
+section1 img#balngu
+{
+    bottom: 18%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+}
+section1 img#balsi
+{
+    bottom: 45%;
+    left: 25%;
+    width: 50%;
+    z-index: 2;
+}
+section2
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section2 img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+section2 img#selamat
+{
+    top: 0%;
+    width: 100%;
+}
+section2 img#ulang
+{
+    top: 15%;
+    width: 100%;
+    z-index: 2;
+}
+section2 img#tahun
+{
+    top: 30%;
+    width: 100%;
+}
+section2 img#bila
+{
+    top: 45%;
+    width: 100%;
+    z-index: 2;
+}
+section2 img#cloudl
+{
+    top: 60%;
+    left: 0%;
+    width: 60%;
+}
+section2 img#cloudr
+{
+    top: 65%;
+    right: 0%;
+    width: 80%;
+}
+section2 img#cloudmid
+{
+    bottom: 0%;
+    width: 90%;
+    z-index: 1;
+}
+section3
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section3 img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+section3 img#semoga
+{
+    top: 0%;
+    width: 100%;
+}
+section3 img#semakin
+{
+    top: 8%;
+    width: 100%;
+}
+section3 img#tua
+{
+    top: 16%;
+    width: 100%;
+}
+section3 img#kamu
+{
+    top: 24%;
+    width: 100%;
+}
+section3 img#semakin1
+{
+    top: 32%;
+    width: 100%;
+}
+section3 img#soleh
+{
+    top: 55%;
+    right: 20%;
+    width: 60%;
+    z-index: 1;
+}
+section3 img#cerdas
+{
+    top: 75%;
+    right: 50%;
+    width: 60%;
+    z-index: 1;
+}
+section3 img#pinter
+{
+    top: 85%;
+    left: 35%;
+    width: 60%;
+}
+section4
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section4 img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+section4 img#cantik
+{
+    top: 10%;
+    width: 60%;
+    z-index: 1;
+}
+section4 img#imut
+{
+    top: 28%;
+    left: 0%;
+    width: 60%;
+}
+section4 img#jagoan
+{
+    top: 40%;
+    left: 50%;
+    width: 60%;
+}
+section4 img#gagalak
+{
+    top: 60%;
+    left: -5%;
+    width: 60%;
+}
+section4 img#bocil
+{
+    top: 80%;
+    left: 20%;
+    width: 80%;
+    z-index: 1;
+}
+section5
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section5 img
+{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    pointer-events: none;
+}
+section5 img#udah
+{
+    top: 0%;
+    width: 100%;
+}
+section5 img#semua
+{
+    top: 10%;
+    width: 75%;
+}
+section5 img#mengiringi
+{
+    top: 12%;
+    width: 95%;
+}
+section5 img#galeri
+{
+    top: 53%;
+    width: 150%;
+}
+section5 img#cloudmid
+{
+    top: 30%;
+    right: 28%;
+    width: 100%;
+}
+section5 img#cloudr
+{
+    top: 35%;
+    width: 100%;
+}
+section5 img#sehat
+{
+    top: 87%;
+    width: 90%;
+}
+sectiondasar
+{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+sectiondasar img
+{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    pointer-events: none;
+}
+sectiondasar img#candi
+{
+    z-index: 3;
+}
+sectiondasar img#permen_kanan
+{
+    z-index: 4;
+}
+sectiondasar img#permen_kiri
+{
+    z-index: 4;
+}
+sectiondasar img#love
+{
+    top: 56%;
+    left: -9%;
+    width: 120%;
+}
