@@ -7,7 +7,6 @@
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 body
 {
@@ -22,6 +21,7 @@ sectionatas
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 sectionatas img
 {
@@ -58,6 +58,7 @@ section1
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section1 img
 {
@@ -152,6 +153,7 @@ section2
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section2 img
 {
@@ -208,6 +210,7 @@ section3
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section3 img
 {
@@ -269,6 +272,7 @@ section4
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section4 img
 {
@@ -316,6 +320,7 @@ section5
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 section5 img
 {
@@ -357,7 +362,7 @@ section5 img#cloudr
 }
 section5 img#sehat
 {
-    top: 87%;
+    top: 85%;
     width: 90%;
 }
 sectiondasar
@@ -368,6 +373,7 @@ sectiondasar
     display: flex;
     justify-content: center;
     align-items: center;
+    overflow: hidden;
 }
 sectiondasar img
 {
